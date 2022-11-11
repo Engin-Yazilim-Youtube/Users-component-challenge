@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Users Component</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="upper">
+            <header class="upper__header">
+                <h2>Users</h2>
+            </header>
+            <nav class="nav">
+                <div class="nav__input">
+                    <input id="data" type="text" placeholder="Search users" name="search" value="">
+                    <button id="buton" type="button">
+                        <img src="./images/search.svg" class="nav__searchIcon">
+                    </button>
+                </div>
+                <div class="nav__menu">
+                    <ul class="nav__menu__list">
+                        <li><a href="#">Reputation</a></li>
+                        <li><a href="#">New users</a></li>
+                        <li><a href="#">Voters</a></li>
+                        <li><a href="#">Editors</a></li>
+                        <li><a href="#">Moderators</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <button id="all">Show All</button>
+        </div>
+        <!-- Main start -->
+        <main class="containerBottom">
+            <div class="top">
+                <div class="card" id="nichols">
+                    <div class="profile">
+                        <img src="./images/lelah.svg" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="info">
+                            <h3>Lelah Nichols</h3>
+                            <h5>Troy, MI</h5>
+                        </div>
+                        <ul class="label">
+                            <li>clothes</li>
+                            <li>stem</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="card" id="insel">
+                    <div class="profile">
+                        <img src="./images/engin.png" width="90px" height="90px" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="info">
+                            <h3>Engin İnsel</h3>
+                            <h5>Çankaya, ANK</h5>
+                        </div>
+                        <ul class="label">
+                            <li>design</li>
+                            <li>software</li>
+                            <li>poem</li>
+                            <li>music</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="card" id="rice">
+                    <div class="profile">
+                        <img src="./images/annie.svg" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="info">
+                            <h3>Annie Rice</h3>
+                            <h5>Austin, TX</h5>
+                        </div>
+                        <ul class="label">
+                            <li>road</li>
+                            <li>mountain</li>
+                            <li>trip</li>
+                            <li>earth</li>
+                            <li>nature</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- Bottom card -->
+            <div class="bottom">
+                <div class="card" id="brower">
+                    <div class="profile">
+                        <img src="./images/robert.svg" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="info">
+                            <h3>Robert Brower</h3>
+                            <h5>Cincinnati, OH</h5>
+                        </div>
+                        <ul class="label">
+                            <li>Maintenance</li>
+                            <li>gears</li>
+                            <li>frames</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="card" id="campbell">
+                    <div class="profile">
+                        <img src="./images/amy.svg" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="info">
+                            <h3>Amy Campbell</h3>
+                            <h5>Warrior, AL</h5>
+                        </div>
+                        <ul class="label">
+                            <li>music</li>
+                            <li>disks</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="card" id="morin">
+                    <div class="profile">
+                        <img src="./images/anthony.svg" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="info">
+                            <h3>Anthony S. Morin</h3>
+                            <h5>Lyndhurst, NJ</h5>
+                        </div>
+                        <ul class="label">
+                            <li>vintage</li>
+                            <li>electric</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <!-- Main end -->
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
