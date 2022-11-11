@@ -7,3 +7,7 @@ Tam ekran
 Aramak istediğimiz user'ın ismini küçük harflerle yazarak aratabiliriz. Sonra show all butona basıp hepsini tekrar çağırabiliriz.
 
 ![image](https://user-images.githubusercontent.com/76450122/201339796-9d9110ee-f355-4d7b-bb89-4d44c5da7f5e.png)
+
+Responsive Tasarım
+
+![image](https://user-images.githubusercontent.com/76450122/201340379-ad1867dd-abf3-496c-a410-30f9c784e861.png)
